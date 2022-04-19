@@ -1,0 +1,91 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a955c595e7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="obrazky/logo.png"></a>
+            <a href="index.html"><img src="obrazky/logo2.png"></a>
+            
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Penzion</a></li>
+                    <li><a href="">Restaurace</a></li>
+                    <li><a href="course.html">Chaty</a></li>
+                    <li><a href="blog.html">Sport</a></li>
+                    <li><a href="">Wellness</a></li>
+                    <li><a href="">Rybolov</a></li>
+                    <li><a href="">Kontakt</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+     
+    <!----- about us content ----->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Nejlepší penzion v okolí</h1>
+                <p>Vivamus luctus egestas leo. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Vivamus luctus egestas leo. Nullam justo enim, consectetuer nec, ullamcorper ac, vestibulum in, elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="obrazky/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+     
+
+    
+    
+    <!----- footer ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>Made by Adam Kryške</p>
+    </section>
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");  
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }    
+    </script>
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
